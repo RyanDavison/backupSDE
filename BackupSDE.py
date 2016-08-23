@@ -32,7 +32,7 @@ created = created.strftime("%y%m%d")
 outName = "SDEbackup" + created + ".gdb"
 
 #Create the output geodatabase.
-arcpy.CreatePersonalGDB_management(outFolderPath, outName)
+arcpy.CreateFileGDB_management(outFolderPath, outName)
 
 #Set the workspace to your SDE instance that you want to copy.
 arcpy.env.workspace = r"Database Connections\[SDE User Name].sde"
