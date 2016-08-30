@@ -1,5 +1,5 @@
 # backupSDE
-A small script that backs up all SDE features to a file geodatabase. The script
+A small script that backs up all features in an [ESRI SDE](http://downloads.esri.com/support/documentation/sde_/706Understanding_ArcSDE.pdf) database to a file geodatabase. The script
 uses the arcpy library to create the backup output geodatabase and do the
 actual copying into it from an SDE location.
 
